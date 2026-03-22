@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajatshatru Singh | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background Animated Blobs -->
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+    <div class="bg-shape shape-3"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">AS.</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="Ajatshatru_Singh_CV.pdf" download class="btn-outline hidden-mobile">Download CV</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content fade-in">
+            <h2 class="greeting">Hi there, I am</h2>
+            <h1 class="name">Ajatshatru <span class="gradient-text">Singh</span></h1>
+            <p class="subtitle">Software Developer building rich, interactive, and modern digital experiences.</p>
+            <div class="cta-group">
+                <a href="#projects" class="btn-primary">View My Work</a>
+                <a href="Ajatshatru_Singh_CV.pdf" download class="btn-secondary">
+                    <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                    Download CV
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="section-header slide-up">
+            <h2>Featured <span class="gradient-text">Projects</span></h2>
+            <p>A selection of my recent work</p>
+        </div>
+        
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <a href="https://jet-engine-aj03.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-card slide-up" style="--delay: 1">
+                <div class="card-inner">
+                    <div class="project-image">
+                        <div class="placeholder-img" style="background: linear-gradient(135deg, #111, #222);">
+                            <span class="project-title-large">Jet Engine</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Jet Engine</h3>
+                        <p>Interactive web application with advanced mechanics and robust frontend features.</p>
+                        <span class="view-link">Visit Website &rarr;</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Project 2 -->
+            <a href="https://weather-app-topaz-one-15.vercel.app" target="_blank" rel="noopener noreferrer" class="project-card slide-up" style="--delay: 2">
+                <div class="card-inner">
+                    <div class="project-image">
+                        <div class="placeholder-img" style="background: linear-gradient(135deg, #1a1c29, #29323c);">
+                            <span class="project-title-large">Weather App</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Weather Application</h3>
+                        <p>Real-time weather tracking application providing accurate forecasts with a dynamic UI.</p>
+                        <span class="view-link">Visit Website &rarr;</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Project 3 -->
+            <a href="https://todo-theta-two-12.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-card slide-up" style="--delay: 3">
+                <div class="card-inner">
+                    <div class="project-image">
+                        <div class="placeholder-img" style="background: linear-gradient(135deg, #091236, #1E215D);">
+                            <span class="project-title-large">Todo App</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Task Manager</h3>
+                        <p>A highly productive and responsive todo list application enabling efficient task management.</p>
+                        <span class="view-link">Visit Website &rarr;</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Project 4 -->
+            <a href="https://lnkd.in/eGxnix8M" target="_blank" rel="noopener noreferrer" class="project-card slide-up" style="--delay: 4">
+                <div class="card-inner">
+                    <div class="project-image">
+                        <div class="placeholder-img" style="background: linear-gradient(135deg, #e50914, #141414);">
+                            <span class="project-title-large">Netflix Clone</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Netflix Clone</h3>
+                        <p>A highly responsive and visually identical clone of the Netflix streaming platform interface.</p>
+                        <span class="view-link">Visit Project &rarr;</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact & Social Section -->
+    <section id="contact" class="contact-section slide-up">
+        <div class="contact-card glass-panel">
+            <h2>Let's <span class="gradient-text">Connect</span></h2>
+            <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/ajatshatru-singh-169420249" target="_blank" rel="noopener noreferrer" class="social-btn linkedin">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    LinkedIn
+                </a>
+                <a href="https://github.com/ajatshatrusingh23" target="_blank" rel="noopener noreferrer" class="social-btn github">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                    GitHub
+                </a>
+                <a href="https://leetcode.com/u/ajatshatru_singh/" target="_blank" rel="noopener noreferrer" class="social-btn leetcode">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                    LeetCode
+                </a>
+                <a href="mailto:ajatshatru360@gmail.com" class="social-btn email">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    Email
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Ajatshatru Singh. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
